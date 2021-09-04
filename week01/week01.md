@@ -9,7 +9,7 @@ or function in the homework
     
 - Question 2: Using notebook and `and_function.ipynb`
     
-    a) Update the code to generate the same datasamples based on the provided seed
+    a) Update the code to generate the same data samples based on the provided seed
     
     b) Use `np.savetxt` the generated data into `andstd02_seed.txt` and `andstd02_seed.txt`
     with `seed` is the given seed
