@@ -9,7 +9,7 @@ Một số ví dụ từ khóa học máy INT3405
 
 + Load môi trường ảo
 
-    `source venv/bin/active`
+    `source venv/bin/activate`
     
 + Cài đặt các thư viện được liệt kê trong `requirements.txt`
 
