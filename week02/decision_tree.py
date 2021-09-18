@@ -56,6 +56,7 @@ if __name__ == "__main__":
     and_y = np.array([0, 0, 0, 1])
 
     Xtrain, ytrain = add_noise_data(and_X, and_y, n_train, 0., std)
+    print(Xtrain.shape, ytrain.shape)
 
     model = build_decision_tree(Xtrain, ytrain)
 
