@@ -53,3 +53,4 @@ if __name__ == "__main__":
         accuracy += [np.mean(np.where(output == y, 1, 0))]
 
     print("Empirical Accuracy = ", np.mean(accuracy))
+

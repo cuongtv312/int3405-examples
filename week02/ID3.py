@@ -16,6 +16,9 @@ def compute_infomation_gain(X, y, feature):
 
 
 # Build decision tree on X and y
+# List of:
+# node_index, node_feature[0..3], (feature_value -> child_index) : internal node
+# leafnode: node_index, node_features = -1, Yes/No
 def build_ID3(X, y):
     return None
 
