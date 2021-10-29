@@ -49,7 +49,6 @@ def add_noise_data(input_data, input_labels, n_points, mean, scale):
     return np.array(raw_X), np.array(raw_labels)
 
 
-
 if __name__ == "__main__":
     np.random.seed(1)
 
